@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Personal Portfolio website - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+ <div id="header">
+   <div class="container">
+     <nav>
+     
+     <img src="images/L.png" class="logo">
+     <ul>
+     <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+       <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+         <li><a href="#">Contact</a></li>
+     </ul>
+     </nav>
+     
+     <div class="header-text">
+     <p>Full Stack Web Developer</p>
+     <h1>Hi, I'm<span>Pranaya</span> <br> Pradhan From Bhubaneswar</h1>
+     </div>
+   </div>
+ 
+ </div>
+ <!-- ---about -->
+ <div id="about">
+    <div class="container">
+    <div class="row">
+    <div class="about-col-1">
+    
+    <img src="images/ur.png">
+    
+    </div>
+     <div class="about-col-2">
+     <h1 class="sub-title">About Me</h1>
+     <p>I am a full stack java Developer trained in both front-end and back-end developement,i am cofident in my ability to design
+         and build high performance,Scalable and Reliable applications. I have gained an extensive knowledge of programming language such as
+         java,html,css,java script and have experience using frameworks like React js,vue.js,nodejs for front end development. Additianally ,I
+         have expertise in using back-end frame-work like spring, hybernate and database like mysql,oracle and etc.</p>
+         
+         <div class="tab-titles">
+         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+           <p class="tab-links" onclick="opentab('experience')">Experience</p>
+             <p class="tab-links" onclick="opentab('education')">Education</p>
+         
+         </div>
+         <div class="tab-contents active-tab " id="skills">
+         <ul>
+         <li><span>Programming language</span><br> Java jdk 22</li>
+         <li><span>User Interface Design</span><br> Html, css, java script, React js,Node js</li>
+         <li><span>server site</span><br> Tomcat 10.1, jsp, servlet</li>
+         <li><span>Back-end database</span><br> My sql, oracle</li>
+         <li><span>Back-end Frameworks</span><br> Spring boot ,hybernate and micro services</li>
+         
+         </ul>
+         
+         </div>
+           <div class="tab-contents " id="experience">
+         <ul>
+         <li><span>2023</span><br> full stack web developer at Naresh i Technologies</li>
+         <li><span>2021</span><br> MCA from NIST college, berhampur,odisha</li>
+         <li><span>2019</span><br> Bsc(itm honrs) from nayagarh autonomous college, nayagarh,odisha</li>
+         </ul>
+         
+         </div>
+          <div class="tab-contents active-tab" id=" education">
+         <ul>
+         <li><span>2023</span><br> full stack web developer at Naresh i Technologies</li>
+         <li><span>2021</span><br> MCA from NIST college, berhampur,odisha</li>
+         <li><span>2019</span><br> Bsc(itm honrs) from nayagarh autonomous college, nayagarh,odisha</li>
+         </ul>
+         
+         </div>
+         
+     </div>
+    </div>
+    </div>
+ </div>
+ <!-- --services -->
+ 
+ <div id="services">
+    <div class=" container">
+        <h1 class="sub-title">My Services</h1>
+          <div class="services-list">
+          <div>
+          <i class="fa-brands fa-app-store-ios"></i>
+          <h2>Web Design</h2>
+          <p> i can design web inerface using html,css, javascript, React js</p>
+          <a href="#">Learn more</a>
+          </div>
+           <div>
+           <i class="fa-solid fa-database"></i>
+          <h2>Back- end services</h2>
+          <p> I have expertise using Back-end database like mysql, oracle</p>
+          <a href="#">Learn more</a>
+          </div>
+         <div>
+         <i class="fa-solid fa-code"></i>
+          <h2>Back- end frame works</h2>
+          <p> I have expertise using Back-end frameworks like Spring spring boot ,hybernate</p>
+          <a href="#">Learn more</a>
+          </div>
+    </div>
+    </div>
+  
+ </div>
+ 
+ <!-- -portfolio  -->
+ <div id="portfolio">
+    <div class="container">
+       <h1 class="sub-title">My Work</h1>
+       <div class="work-list">
+       <div class="work">
+       <img src="images/work-1.png">
+       <div class="layer">
+       <h3>Ecommerce website</h3>
+       <p>it is a ecommerce cloth buying website having a beautiful user inerface with so many features</p>
+       <a href="#"></a>
+       </div>
+       </div>
+       <div class="work">
+       <img src="images/work-2.png">
+          <div class="layer">
+       <h3>Ecommerce website</h3>
+       <p>it is a ecommerce cloth buying website having a beautiful user inerface with so many features</p>
+       <a href="#"></a>
+       </div>
+       </div>
+       <div class="work">
+       <img src="images/work-3.png">
+          <div class="layer">
+       <h3>Ecommerce website</h3>
+       <p>it is a ecommerce cloth buying website having a beautiful user inerface with so many features</p>
+       <a href="#"></a>
+       </div>
+       </div>
+       </div>
+    </div>
+ </div>
+ 
+ <!-- cintact -->
+<div id = "contact">
+   <div class="container">
+      <div class="row">
+        <div class="contact-left">
+        <h1 class="sub-title">contact Me</h1>
+        <p>pranayapradhan4@gmail.com</p>
+        <p>8249666094</p>
+        <div class="social-icons">
+        <a href=""><i class="fa-brands fa-facebook"></i> </a>
+         <a href=""><i class="fa-brands fa-twitter"></i> </a>
+          <a href=""> <i class="fa-brands fa-instagram"></i></a>
+           <a href=""><i class="fa-brands fa-linkedin"></i> </a>
+
+        </div>
+        <a href ="images/cv.pdf" class="btn btn2" download > download cv</a>
+        </div>
+         <div class="contact-right">
+          <form class="contact-right">
+            <input type="text" name="name" placeholder="your name" required>
+             <input type="email" name="email" placeholder="your Email" required>
+             <textarea name="Message" rows="6" placeholder="your message"></textarea>
+             <button type="submit" class="btn btn2">Submit</button>
+            
+          </form>
+         </div>
+      </div>
+   </div>
+</div> 
+ 
+ <script>
+   var tablinks = document.getElementByclassName("tab-links");
+   var tabcontents = document.getElementByclassName("tab-contents");
+   
+     function opentab(tabname){
+    	 for(tablink of tablinks){
+    		 tablink.classList.remove("active-link");
+    	 }
+    	 for(tabcontent of tabcontents){
+    		 tabcontent.classList.remove("active-tab");
+    	 }
+    	 
+    	 event.currentTarget.classList.add("active-link");
+    	 document.getElementById(tabname).classList.add("active-tab");
+     }
+   
+   
+   
+ </script>
+ 
+</body>
+</html>
